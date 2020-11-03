@@ -20,4 +20,4 @@ class TempMail:
     return [self.read_message(mail_inx, el['id']) for el in message_list]
   
   def get_all_messages_of_all_mails(self):
-    return [self.get_all_messages_of_mail(i) for i in range(len(self.mails))
+    return [self.get_all_messages_of_mail(i) for i in range(len(self.mails))]
